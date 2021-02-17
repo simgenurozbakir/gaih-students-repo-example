@@ -1,5 +1,6 @@
-#Explain your work
+n=3
+nonprimes = [j for i in range(2, 8) for j in range(i*2, 10, i)]
+primes = [x for x in range(2, 7) if x not in nonprimes]
 
-#Question 1
-for x in range(a):
-	print(a)
+a = [primes for i in range(n)]
+print(a)
