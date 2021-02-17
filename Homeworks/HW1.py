@@ -10,5 +10,5 @@ def prime_generator(end):
 g = prime_generator(7)       # give first 7 prime numbers
 x1 = list(g)
 
-a=[x1 for in range(3)]
+a=[x1 for i in range(3)]
 print(a)
